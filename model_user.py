@@ -137,12 +137,13 @@ def learning(model, testing_steps = 20, step = 0.1, expected = 0.6, iterations =
     return best_student
 
 
-with open('model.json', 'r') as f:
-    model = json.load(f)
-# learning(model, 100, 0.05, 0.6, 10, 5)
-nintyp = learning(model, 20, 0.1, 1, 10, 10)
+if __name__ == "__main__":
+    with open('model.json', 'r') as f:
+        model = json.load(f)
+    # learning(model, 100, 0.05, 0.6, 10, 5)
+    nintyp = learning(model, 20, 0.1, 1, 10, 10)
 
-tyryry = 100
-nintylist = [getbest(model, nintyp) for _ in tqdm(range(tyryry))]
-nintyratio = sum(len(res[0].split(' ')) == 1 for res in nintylist)
-print(f'Ninty ratio: {nintyratio/tyryry}')
+    tyryry = 100
+    nintylist = [getbest(model, nintyp) for _ in tqdm(range(tyryry))]
+    nintyratio = sum(len(res[0].split(' ')) == 1 for res in nintylist)
+    print(f'Ninty ratio: {nintyratio/tyryry}')

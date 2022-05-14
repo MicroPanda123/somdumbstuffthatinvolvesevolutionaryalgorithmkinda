@@ -1,0 +1,4 @@
+This is sentence 1
+This is sentence 2
+Word sentence will have 1, 2 and will as it's probibilities.
+Last word of previous sentence will have null as it's only probability, so p will be 1.0.

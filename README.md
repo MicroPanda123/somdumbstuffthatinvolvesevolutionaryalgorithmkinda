@@ -7,5 +7,3 @@ If u understand it then have fun you bastard I guess.
 
 
 Yeah it's bad but tbh I think I learning something from it and it was fun thing to do so, not total loss of time I hope.
-
-lol

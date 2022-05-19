@@ -49,7 +49,7 @@ def save_to_json(model, save_file):
         json.dump(model, f, allow_nan=True, indent=3)
 
 if __name__ == "__main__":
-    text_file = 'okku.txt'
+    text_file = 'sample.txt'
     model_save_file = 'model.json'
 
     with open(text_file, 'r', encoding='utf-8') as f:

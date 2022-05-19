@@ -47,6 +47,7 @@ score = 100 / (1 / testing_steps)
 13. Repeat steps from 7 to 12 until iterations end or best_student weren't improving.
 14. Save final best_student to file and return it.
 
-
+## Possible optimizations
+This code can be optimized big time. Am I willing to? Idk maybe. It works for me and I don't see it being really used in any kind of production, so my only fuel to make it better would be self determination, I might do it later.
 
 [^1]: It's actually pseudorandom, since computers can't generate true random numbers.
